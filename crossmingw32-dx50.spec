@@ -9,7 +9,7 @@ Group:		Development/Libraries
 # headers are Copyright (C) 19xx Microsoft Corporation - what about license???
 # (even if distributable, are they "Free"?!)
 Source0:	http://www.libsdl.org/extras/win32/common/directx-devel.tar.gz
-# Source1-md5:	389a36e4d209c0a76bea7d7cb6315315
+# Source0-md5:	389a36e4d209c0a76bea7d7cb6315315
 URL:		http://www.libsdl.org/extras/win32/common/
 ExclusiveArch:	%{ix86}
 Provides:	crossmingw32-w32api-dx
