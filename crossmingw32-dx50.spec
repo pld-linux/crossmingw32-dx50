@@ -11,7 +11,6 @@ Group:		Development/Libraries
 Source0:	http://www.libsdl.org/extras/win32/common/directx-devel.tar.gz
 # Source0-md5:	389a36e4d209c0a76bea7d7cb6315315
 URL:		http://www.libsdl.org/extras/win32/common/
-ExclusiveArch:	%{ix86}
 Provides:	crossmingw32-w32api-dx
 Obsoletes:	crossmingw32-w32api-dx
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
