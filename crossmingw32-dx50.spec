@@ -2,7 +2,7 @@ Summary:	Mingw32 GNU binary utility development utilities - DirectX 5.0 API
 Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla Mingw32 - API DirectX 5.0
 Name:		crossmingw32-dx50
 Version:	5.0
-Release:	1
+Release:	2
 Epoch:		1
 License:	Free (libs), (c) Microsoft Corporation (headers)
 Group:		Development/Libraries
@@ -11,6 +11,7 @@ Group:		Development/Libraries
 Source0:	http://www.libsdl.org/extras/win32/common/directx-devel.tar.gz
 # Source0-md5:	389a36e4d209c0a76bea7d7cb6315315
 URL:		http://www.libsdl.org/extras/win32/common/
+Requires:	crossmingw32-runtime
 Provides:	crossmingw32-w32api-dx
 Obsoletes:	crossmingw32-w32api-dx
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
