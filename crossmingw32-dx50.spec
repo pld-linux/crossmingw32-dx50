@@ -12,8 +12,8 @@ Source0:	http://www.libsdl.org/extras/win32/common/directx-devel.tar.gz
 # Source0-md5:	389a36e4d209c0a76bea7d7cb6315315
 URL:		http://www.libsdl.org/extras/win32/common/
 Requires:	crossmingw32-runtime
-Provides:	crossmingw32-w32api-dx = 5.0
-Obsoletes:	crossmingw32-w32api-dx
+Provides:	crossmingw32-dx = 5.0
+Obsoletes:	crossmingw32-dx
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		target		i386-mingw32
