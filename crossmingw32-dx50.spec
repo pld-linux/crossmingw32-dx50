@@ -12,7 +12,7 @@ Source0:	http://www.libsdl.org/extras/win32/common/directx-devel.tar.gz
 # Source0-md5:	389a36e4d209c0a76bea7d7cb6315315
 URL:		http://www.libsdl.org/extras/win32/common/
 Requires:	crossmingw32-runtime
-Provides:	crossmingw32-w32api-dx
+Provides:	crossmingw32-w32api-dx = 5.0
 Obsoletes:	crossmingw32-w32api-dx
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -57,5 +57,13 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{arch}/include/*
-%{arch}/lib/*
+%{arch}/include/d3dtypes.h
+%{arch}/include/ddraw.h
+%{arch}/include/dinput.h
+%{arch}/include/dsound.h
+%{arch}/include/directx.h
+%{arch}/lib/libdsound.a
+%{arch}/lib/libddraw.a
+%{arch}/lib/libdplayx.a
+%{arch}/lib/libdinput.a
+%{arch}/lib/libdxguid.a
