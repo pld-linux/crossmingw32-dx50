@@ -1,5 +1,5 @@
-Summary:	Mingw32 GNU binary utility development utilities - DirectX 5.0 API
-Summary(pl.UTF-8):	Skrośne narzędzia programistyczne GNU dla Mingw32 - API DirectX 5.0
+Summary:	MinGW32 binary utility development utilities - DirectX 5.0 API
+Summary(pl.UTF-8):	Skrośne narzędzia programistyczne dla MinGW32 - API DirectX 5.0
 Name:		crossmingw32-dx50
 Version:	5.0
 Release:	2
@@ -27,7 +27,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 crossmingw32 is a complete cross-compiling development system for
 building stand-alone Microsoft Windows applications under Linux using
-the Mingw32 build libraries. This includes a binutils, gcc with g++
+the MinGW32 build libraries. This includes a binutils, gcc with g++
 and objc, and libstdc++, all cross targeted to i386-mingw32, along
 with supporting Win32 libraries in 'coff' format from free sources.
 
@@ -36,7 +36,7 @@ This package contains DirectX 5.0 API includes and libraries.
 %description -l pl.UTF-8
 crossmingw32 jest kompletnym systemem do kompilacji skrośnej,
 pozwalającym budować aplikacje MS Windows pod Linuksem używając
-bibliotek mingw32. System składa się z binutils, gcc z g++ i objc,
+bibliotek minGW32. System składa się z binutils, gcc z g++ i objc,
 libstdc++ - wszystkie generujące kod dla platformy i386-mingw32, oraz
 z bibliotek w formacie COFF.
 
